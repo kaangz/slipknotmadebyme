@@ -1,0 +1,143 @@
+<html>
+<head>
+   <img src="fix.png" alt="" width="100%" height="20%">
+	
+    <title>W3.CSS</title>
+		<style>
+			body {
+            background-image: url('kuburan.jpg');
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-position=center;
+			
+        }
+		.w3-dropdown-hover .w3-dropdown-content {
+			background-color: black; /* Mewarnai dropdown background menjadi hitam */
+			color: white; /* Mengubah warna teks menjadi putih untuk kontras */
+		}
+		</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3.css">
+</head>
+<body>
+    <center>
+            <button class="w3-bar-item w3-button" onclick="openKota('Slipknot')">Slipknot</button>
+				<div class="w3-dropdown-hover">
+                <button class="w3-bar-item w3-button" onclick="openKota('Member')">Member</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card">
+                    <button class="w3-bar-item w3-button" onclick="openKota('cr')">Corey Taylor</button>
+                    <button class="w3-bar-item w3-button" onclick="openKota('mt')">Mick Thompson</button>
+					<button class="w3-bar-item w3-button" onclick="openKota('ssw')">Sid Wilson</button>
+					<button class="w3-bar-item w3-button" onclick="openKota('cf')">Chris fehn</button>
+					<button class="w3-bar-item w3-button" onclick="openKota('jr')">james Root</button>
+                </div>
+				</div>
+						<button class="w3-bar-item w3-button" onclick="openKota('Album')">Album</button>
+						<button class="w3-bar-item w3-button" onclick="openKota('ts')">Top songs</button>
+            <div class="w3-dropdown-hover">
+                <button class="w3-bar-item w3-button">Profile</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card">
+                    <button class="w3-bar-item w3-button" onclick="openKota('Nama')">Nama</button>
+                    <button class="w3-bar-item w3-button" onclick="openKota('Kelas')">Kelas</button>
+                </div>
+            </div>
+        <div id="Slipknot" class="w3-container kota w3-animate-zoom" style="display:none">
+            <h2 class="w3-center">Slipknot</h2>
+            <img src="slipknot.jpg"weight="50%" height="50%" alt="Slipknot"></img>
+		<font color="white"><p>Slipknot adalah grup musik heavy metal Amerika yang dibentuk di 
+			Des Moines, Iowa, pada tahun 1995 oleh perkusi Shawn Crahan, drummer Joey Jordison dan bassis Paul Gray. Setelah beberapa kali perubahan lineup di tahun-tahun awal, 
+			band ini menetap pada sembilan anggota selama lebih dari satu dekade: Crahan, Jordison, Gray, Craig Jones, Mick Thomson, Corey Taylor, Sid Wilson, Chris Fehn, dan Jim Root. 
+			Gray meninggal pada 24 Mei 2010, dan digantikan selama 2011-2014 oleh gitaris Donnie Steele. Jordison diberhentikan dari grup pada 12 Desember 2013. Steele pergi 
+			selama sesi rekaman untuk .5: The Grey Chapter. Grup musik ini menemukan pengganti di Alessandro Venturella pada bass dan Jay Weinberg pada drum. Setelah kepergian Jordison, 
+			pada Desember 2013 satu-satunya anggota pendiri di lineup saat ini adalah pemain perkusi Crahan. Fehn juga diberhentikan dari grup pada Maret 2019 sebelum penulisan We Are Not Your Kind.</p></font>
+        </div>
+  
+        <div id="cr" class="w3-container kota w3-animate-right" style="display:none">
+            <h2 class="w3-center">Corey Taylor</h2>
+            <img src="corey.jpg" weight="50%" height="50%" alt="cr"></img>
+		<font color="white"><p>Corey Todd Taylor adalah seorang vokalis band Slipknot serta seorang pendiri dan vokalis untuk band alternative metal Stone Sour.
+        </font>
+		</div>
+		
+		<div id="mt" class="w3-container kota w3-animate-zoom" style="display:none">
+            <h2 class="w3-center">Mick Thompson</h2>
+            <img src="mickk.jpg" weight="50%" height="50%" alt="mt"></img>
+		<font color="white"><p>Mickael Gordon Thomson atau lebih dikenal dengan Mick Thomson adalah seorang gitaris rock metal asal Amerika Serikat. Dia adalah seorang gitaris band Slipknot dan anggota di dalam band.
+        </font>
+		</div>
+		
+		<div id="ssw" class="w3-container kota w3-animate-left" style="display:none">
+            <h2 class="w3-center">Sid Wilson</h2>
+            <img src="sidd.jpg" weight="50%" height="50%" alt="ssw"></img>
+			<font color="white"><p>Sidney George Wilson III,juga dikenal sebagai DJ Starscream, adalah seorang DJ, keyboardis, rapper, dan pianis Amerika, paling dikenal sebagai turntablis dari band heavy metal pemenang Grammy Award Slipknot.
+			</font>
+		</div>
+		
+		<div id="cf" class="w3-container kota w3-animate-zoom" style="display:none">
+            <h2 class="w3-center">Chris Fehn</h2>
+            <img src="cf.jpg" weight="50%" height="50%" alt="cf"></img>
+		<font color="white"><p>Christopher Michael Fehn adalah salah seorang dari tiga drummers untuk band yang beraliran Nu-Metal, Slipknot. Chris memakai topeng Tengu, yang mempunyai banyak warna dan gaya dengan hidung pada topeng panjangnya selalu 7 inci (sekitar 19 cm).
+        </font>
+		</div>
+		
+		<div id="jr" class="w3-container kota w3-animate-right" style="display:none">
+            <h2 class="w3-center">James Root</h2>
+            <img src="james.jpg" weight="50%" height="50%" alt="jr"></img>
+		<font color="white"><p>James Donald Root yang dikenal sebagai #4 yang menjadi salah satu gitaris di Slipknot dan mantan gitaris di Stone Sour. dengan tinggi badan 198 cm, menjadikannya sebagai anggota tertinggi di band.
+        </font></p>
+		</div>
+	</center>	
+	 <div id="Album" class="w3-container kota w3-animate-zoom" style="display:none">
+		<div class="w3-panel">
+            <img src="slipkno.jpg"weight="30%" height="30%" alt="Slipknot"></img>
+			<font color="white">SLIPKNOT(1999)</p>
+			<img src="iowa.jpg"weight="30%" height="30%" alt="Slipknot"></img>
+			<font color="white">IOWA(2001)</p>
+			<img src="album3.jpg"weight="30%" height="30%" alt="Slipknot"></img>
+			<font color="white">Vol.3: The Subliminal Verses(2004)</p>
+			<img src="allhope.jpg"weight="30%" height="30%" alt="Slipknot"></img>
+			<font color="white">All Hope Is Gone(2008)</p>
+			<img src="gray.jpeg"weight="30%" height="30%" alt="Slipknot"></img>
+			<font color="white">.5: The Gray Chapter(2014)</p>
+			<img src="wa.jpg"weight="30%" height="30%" alt="Slipknot"></img>
+			<font color="white">We Are Not Your Kind(2019)</p>
+			
+		</div>
+	</div>
+	<div id="ts" class="w3-container kota w3-animate-zoom" style="display:none">
+		<div class="w3-panel">
+		<h2 class="w3-center">1 TOP SONG IN EVERY ALBUM</h2>
+			
+            <img src="slipkno.jpg"weight="30%" height="30%" alt="Slipknot"></img>
+			<a href="https://open.spotify.com/track/2gscB6kDOmrv1P6qs2KXE3?si=2eca60afcc7b40d9" font color="white">Wait and bleed</p></a>
+			<img src="iowa.jpg"weight="30%" height="30%" alt="Slipknot"></img>
+			<a href="https://open.spotify.com/track/0Y2i84QWPFiFHQfEQDgHya?si=0274cd296def4efd"font color="white">People=Shit</p></a>
+			<img src="album3.jpg"weight="30%" height="30%" alt="Slipknot"></img>
+			<a href="https://open.spotify.com/track/61mWefnWQOLf90gepjOCb3?si=074f421f37704517"font color="white">Duality</p></a>
+			<img src="allhope.jpg"weight="30%" height="30%" alt="Slipknot"></img>
+			<a href="https://open.spotify.com/track/3RAFcUBrCNaboRXoP3S5t1?si=f85a9f4c3269446a"font color="white">Psychosocial</p></a>
+			<img src="gray.jpeg"weight="30%" height="30%" alt="Slipknot"></img>
+			<a href="https://open.spotify.com/track/5hheGdf1cb4rK0FNiedCfK?si=0a214c368bbe4630"font color="white">The Devil In I</p></a>
+			<img src="wa.jpg"weight="30%" height="30%" alt="Slipknot"></img>
+			<a href="https://open.spotify.com/track/6WCkyaVmut83CtBFEUhDo4?si=94cc203d7dc5445d"font color="white">Solway Firth</p></a>
+		</div>
+	</div>
+		
+        <div id="Nama" class="w3-container kota w3-animate-right" style="display:none">
+          <font color="black">  <h2 class="w3-center">MUHAMMAD AZKA FARDHANA</h2></font>
+		</div>
+		<div id="Kelas" class="w3-container kota w3-animate-right" style="display:none">
+           <font color="black"> <h2 class="w3-center">IF-7</h2></font>
+		 </div>
+    <script>
+	  function openKota(namakota) {
+		var i;
+		var x = document.getElementsByClassName("kota");
+		for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";
+		}
+			document.getElementById(namakota).style.display = "block";
+		}
+    </script>
+</body>
+</html> 
